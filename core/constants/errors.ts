@@ -5,4 +5,5 @@ export const ERRORS = {
     success: "Successfully delete course",
     error: "Failed to delete course",
   },
+  invalid_token: "Invalid token",
 };

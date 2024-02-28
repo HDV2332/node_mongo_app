@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import Course from "../models/course.model";
 import { Request, Response } from "express";
-import { ERRORS } from "../../definitions/constants/errors";
+import { ERRORS } from "../../core/constants/errors";
 
 const createCourse = (request: Request, response: Response) => {
   const course = new Course({
